@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6407EB1D54907E00652BAC /* objcSelectorArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6407EA1D54907E00652BAC /* objcSelectorArgument.h */; };
+		FE6407EB1D54907E00652BAC /* objcSelectorArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6407EA1D54907E00652BAC /* objcSelectorArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6407F21D54907F00652BAC /* objcSelectorArgument.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6407E71D54907E00652BAC /* objcSelectorArgument.framework */; };
 		FE6407F71D54907F00652BAC /* objcSelectorArgumentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6407F61D54907F00652BAC /* objcSelectorArgumentTests.m */; };
+		FE6408041D54909200652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6408011D54909200652BAC /* Cartfile */; };
+		FE6408051D54909200652BAC /* objcSelectorArgument.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6408021D54909200652BAC /* objcSelectorArgument.podspec */; };
+		FE6408091D5490B400652BAC /* VDSelectorArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6408071D5490B400652BAC /* VDSelectorArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE64080A1D5490B400652BAC /* VDSelectorArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6408081D5490B400652BAC /* VDSelectorArgument.m */; };
+		FE64080D1D54910A00652BAC /* NSObject+VDSelectorArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64080B1D54910A00652BAC /* NSObject+VDSelectorArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE64080E1D54910A00652BAC /* NSObject+VDSelectorArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64080C1D54910A00652BAC /* NSObject+VDSelectorArgument.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,13 @@
 		FE6407F11D54907F00652BAC /* objcSelectorArgumentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcSelectorArgumentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6407F61D54907F00652BAC /* objcSelectorArgumentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcSelectorArgumentTests.m; sourceTree = "<group>"; };
 		FE6407F81D54907F00652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6408011D54909200652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE6408021D54909200652BAC /* objcSelectorArgument.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcSelectorArgument.podspec; sourceTree = "<group>"; };
+		FE6408031D54909200652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE6408071D5490B400652BAC /* VDSelectorArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDSelectorArgument.h; sourceTree = "<group>"; };
+		FE6408081D5490B400652BAC /* VDSelectorArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDSelectorArgument.m; sourceTree = "<group>"; };
+		FE64080B1D54910A00652BAC /* NSObject+VDSelectorArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+VDSelectorArgument.h"; sourceTree = "<group>"; };
+		FE64080C1D54910A00652BAC /* NSObject+VDSelectorArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VDSelectorArgument.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,9 @@
 				FE6407E91D54907E00652BAC /* objcSelectorArgument */,
 				FE6407F51D54907F00652BAC /* objcSelectorArgumentTests */,
 				FE6407E81D54907E00652BAC /* Products */,
+				FE6408011D54909200652BAC /* Cartfile */,
+				FE6408021D54909200652BAC /* objcSelectorArgument.podspec */,
+				FE6408031D54909200652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +89,10 @@
 			children = (
 				FE6407EA1D54907E00652BAC /* objcSelectorArgument.h */,
 				FE6407EC1D54907E00652BAC /* Info.plist */,
+				FE6408071D5490B400652BAC /* VDSelectorArgument.h */,
+				FE6408081D5490B400652BAC /* VDSelectorArgument.m */,
+				FE64080B1D54910A00652BAC /* NSObject+VDSelectorArgument.h */,
+				FE64080C1D54910A00652BAC /* NSObject+VDSelectorArgument.m */,
 			);
 			path = objcSelectorArgument;
 			sourceTree = "<group>";
@@ -93,7 +113,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6408091D5490B400652BAC /* VDSelectorArgument.h in Headers */,
 				FE6407EB1D54907E00652BAC /* objcSelectorArgument.h in Headers */,
+				FE64080D1D54910A00652BAC /* NSObject+VDSelectorArgument.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6408051D54909200652BAC /* objcSelectorArgument.podspec in Resources */,
+				FE6408041D54909200652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64080A1D5490B400652BAC /* VDSelectorArgument.m in Sources */,
+				FE64080E1D54910A00652BAC /* NSObject+VDSelectorArgument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
